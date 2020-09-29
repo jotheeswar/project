@@ -1,0 +1,31 @@
+.one{
+    border: 1px solid black;
+    padding: 20px 30px;
+    margin: 0px 500px 30px;
+  }
+  button{
+    padding:8px 14px;
+  }
+  input{
+    margin:10px;
+  }
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 300px 0px ;
+    padding: 20px 190px 0px;
+  }
+  .add{
+    background-color:rgb(8, 105, 8);
+    color:white;
+  }
+  .reset{
+    background-color:rgb(202, 39, 28);
+    color:white;
+  }
+  .grid-container {
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto;
+    padding: 20px;
+  }
