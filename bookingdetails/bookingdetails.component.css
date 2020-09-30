@@ -1,0 +1,28 @@
+.border{
+  margin: 20px 70px;
+    border: 1px solid grey;
+    padding:10px 25px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+  }
+  
+.bold{
+  margin: 20px 30px;
+  padding: 0px 35px;
+}
+.align{
+  float:right;
+  padding:8px;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.flex-container > div {
+  margin: 10px;
+  text-align: center;
+  padding:10px;
+}
