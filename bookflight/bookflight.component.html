@@ -1,0 +1,42 @@
+<div class="border">
+  <h3>Book Domestic And International Flights:</h3>
+    <div class="grid-container">
+      <div class="grid-item">
+        FROM:<br>
+        <select class="one">
+          <option>Source Airport</option>
+          <option>Flight-1</option>
+          <option>Flight-2</option>
+          <option>Flight-13</option>
+        </select>
+      </div>
+      <div class="grid-item">
+        TO:<br>
+        <select class="one">
+          <option>Destination Airport</option>
+          <option>Flight-1</option>
+          <option>Flight-2</option>
+          <option>Flight-13</option>
+        </select>
+      </div>
+      <div class="grid-item">
+        ON:<br>
+        <input class="one" type="date">
+      </div>
+    </div><br><br>
+    <div><button class="align">Search</button></div>
+</div>
+<h2 class="bold">Available Flights:</h2>
+<div class="border1">
+  <div class="grid-container1">
+    <div class="grid-items1" *ngFor="let n of count">
+      Flight Number:<br>
+      Carrier Name:<br>
+      Flight Model:<br>
+      Departure:<br>
+      Arrival:<br>
+      cost/seat:<br>
+      <button class="align" routerLink="/bookticket">Book Now</button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,33 @@
+.border{
+    margin: 20px 100px;
+    border: 1px solid grey;
+    padding: 10px 100px 80px 10px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 20px;
+  }
+.align{
+    float:right;
+    padding:8px;
+  }
+.border1{
+    margin: 20px 30px;
+    padding: 0px 35px;
+}
+.grid-container1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+  }
+.grid-items1{
+    border: 1px solid grey;
+    padding: 10px 10px;
+}
+.bold{
+    margin: 35px 70px 0px;
+}
+.one{
+    padding: 5px 35px;
+}
