@@ -1,0 +1,29 @@
+.con{ 
+    background-image:url("https://i.insider.com/5e8f5e8792e8ba5a1927cd68?width=1100&format=jpeg&auto=webp");
+   
+    width:950px;
+    border:15px;
+    padding:200px 150px;
+    margin:15px;
+    text-align: center;
+  }
+  .left{
+    float:left;
+    width:49%;
+    margin-right:2%;
+    text-align:center;
+  }
+  .right{
+    float:left;
+    width:49%;
+    text-align:center;
+  }
+  .one{
+    background-color:white;
+    text-align: center;
+    color:black;
+  }
+  button{
+    background-color:blue;
+    color:white;
+  }
