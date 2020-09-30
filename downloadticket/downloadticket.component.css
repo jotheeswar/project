@@ -1,0 +1,18 @@
+.border{
+  margin: 70px;
+  border: 1px solid grey;
+  padding:10px 25px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+  }
+  
+.bold{
+    margin: 30px;
+}
+.align{
+  float:right;
+  padding:8px;
+}
